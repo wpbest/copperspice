@@ -36,6 +36,7 @@ After the software tools are installed and configured run the msys.bat file loca
 In the MINGW Box issue the commands:
 
 $ cd $HOME
+
 $ mkdir git
 
 $ cd git
