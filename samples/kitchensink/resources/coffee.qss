@@ -1,0 +1,154 @@
+QWidget {
+   background-color: beige;
+}
+
+QLineEdit, QFrame {
+    border-width: 2px;
+    padding: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 4px;
+}
+
+QLabel {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+QLabel, QAbstractButton {    
+}
+
+/* custom QLineEdit */
+.QLineEdit {
+   background: #FFE4C4;  
+}
+
+QLineEdit:focus, QFrame:focus {
+    border-width: 3px;
+    padding: 0px;
+}
+
+/* Windows XP style password character. */
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}
+
+/* provide a min-width and min-height so they look nice
+   regardless of the width of the text. */
+QPushButton {
+    background-color: palegoldenrod;
+    border-color: darkkhaki;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+    border-radius: 5;   
+    min-width: 9ex;
+    min-height: 2.5ex;  
+}
+
+QPushButton:hover {
+   background-color: khaki;
+}
+
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #d0d67c;
+}
+
+/* Mark mandatory fields with a brownish color. */
+.mandatory {
+    color: brown;
+}
+
+/* Bold text on status bar looks bad. */
+QStatusBar QLabel {
+   font: normal;
+}
+
+QStatusBar::item {
+    border-width: 1;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 2;
+}
+
+QComboBox, QLineEdit, QSpinBox, QTextEdit, QListView {
+    background-color: beige;
+    selection-color: black; 
+    selection-background-color: #C19A6B;   /* coffee color */
+}
+
+QListView {
+    show-decoration-selected: 1;
+}
+
+QListView::item:hover {
+    background-color: wheat;
+}
+
+/* A QToolTip is a QLabel */
+QToolTip {
+    background-color: BurlyWood;
+    border: 2px solid darkkhaki;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+/* shows the background color change when hovered. */
+QRadioButton:hover, QCheckBox:hover {
+   background-color: wheat;
+}
+
+/* Force dialog buttons to follow the Windows guidelines. */
+QDialogButtonBox {
+   button-layout: 0;
+}
+
+/* custom calendar */
+QCalendarWidget  * {        
+   background-color: DarkKhaki;   
+   color: black;
+   padding: 0px;
+}
+
+QCalendarWidget  QFrame {   
+   background-color: beige;         
+   color: grey;  
+   border-width: 0px;      
+}
+
+/* custom menubar */
+QMenuBar {       
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: DarkSlateGray;    
+}
+QMenuBar::item:pressed {
+    background: LightGray;
+}
+
+QMenu::item {     
+    selection-background-color:  BurlyWood;
+}
+
+
+/* custom tab controls */
+QTabBar::tab:selected {
+     background-color: BurlyWood;
+     border: 1px solid;
+     padding: 3px;
+     border-radius: 3px;
+}
+
+QTabBar::tab:unselected {   
+     border: 1px solid;
+     padding: 3px;
+     border-radius: 3px;
+}
+
+QScrollBar:vertical {
+     background: BurlyWood;  
+}
