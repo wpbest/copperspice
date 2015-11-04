@@ -30,6 +30,7 @@ http://www.7-zip.org/
 7-Zip is a file archiver.
 
 Software Tools Installation
+
 Install 7-Zip, MSYS, and MinGW64. Afgter installing the 7-Zip utility, Use it to expand msys+7za+wget+svn+git+mercurial+cvs-rev9.7z to c:\msys and x64-4.8.1-release-posix-seh-rev5.7z to c:\mingw64. Modify the Path system variable to include the c:\msys\bin and c:\mingw64\bin directories. In Windows 10, right click on the start button, select Control Pannel, select System and Security, select System, select Advanced system settings, click on the Environment Variables button, click on the Path system variable and press the Edit button. Add "c:\msys\bin;c:\mingw64\bin;" to the Path.
 
 Build Copper Spice
