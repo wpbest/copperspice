@@ -6,6 +6,7 @@ Build CopperSpice and Samples on Windows 10 64-bit
 Note: Windows does not provide a Bourne shell as a standard component. In order to build CopperSpice a shell program is required to run the configure scripts. This is installed as part of the MSYS project. In order to build CopperSpice or your applications, you will need to install MSYS and MinGW.
 
 Software Tools
+
 MSYS Version msys+7za+wget+svn+git+mercurial+cvs-rev9.7z
 
 http://sourceforge.net/projects/mingwbuilds/files/external-binary-packages/
