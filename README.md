@@ -33,7 +33,7 @@ Install 7-Zip, MSYS, and MinGW64. Afgter installing the 7-Zip utility, Use it to
 
 Build Copper Spice
 
-After the software tools are installed and configured, run the msys.bat file located in the c:\msys directory by right clicking it with file explorer and selecting "Run as administrator". A MINGW Box will open. Pull down the source code and samples by using the git utility and use the GNU Autotools Build System to build. We will install it in the $HOME directory for conveniencecd git. This will take several hours to complete. 
+After the software tools are installed and configured, run the msys.bat file located in the c:\msys directory by right clicking it with file explorer and selecting "Run as administrator". A MINGW Box will open. Pull down the source code and samples by using the git utility and use the GNU Autotools Build System to build from the source code. We have selected the $HOME directory for installation as convenience. This will take several hours to complete. 
 In the MINGW Box issue the commands:
 
 $ cd $HOME
