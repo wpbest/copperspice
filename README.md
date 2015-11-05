@@ -70,10 +70,9 @@ $ mkdir build
 
 $ cd build
 
-$ ../configure
+$ ../configure --prefix $HOME
 
 $ make install
-
 
 Build screenshot
 
@@ -81,11 +80,7 @@ $ cd $HOME/git/copperspice/samples/screenshot
 
 $ ./autogen.sh
 
-$ mkdir build
-
-$ cd build
-
-$ ../configure
+$ ./configure --prefix $HOME
 
 $ make install
 
@@ -93,13 +88,9 @@ Build settingseditor
 
 $ cd $HOME/git/copperspice/samples/settingseditor
 
-$ ./autogen.sh
+$ ./autogen.sh --prefix $HOME
 
-$ mkdir build
-
-$ cd build
-
-$ ../configure
+$ ./configure --prefix $HOME
 
 $ make install
 
@@ -109,11 +100,7 @@ $ cd $HOME/git/copperspice/samples/simple
 
 $ ./autogen.sh
 
-$ mkdir build
-
-$ cd build
-
-$ ../configure
+$ ./configure --prefix $HOME
 
 $ make install
 
@@ -123,10 +110,6 @@ $ cd $HOME/git/copperspice/samples/simpletextviewer
 
 $ ./autogen.sh
 
-$ mkdir build
-
-$ cd build
-
-$ ../configure
+$ ./configure --prefix $HOME
 
 $ make install
