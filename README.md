@@ -56,6 +56,8 @@ $ cd build
 
 $ ../configure --prefix $HOME
 
+$ make
+
 $ make install
 
 Build Copper Spice Samples
@@ -72,6 +74,8 @@ $ cd build
 
 $ ../configure --prefix $HOME
 
+$ make
+
 $ make install
 
 Build screenshot
@@ -81,6 +85,8 @@ $ cd $HOME/git/copperspice/samples/screenshot
 $ ./autogen.sh
 
 $ ./configure --prefix $HOME
+
+$ make
 
 $ make install
 
@@ -92,6 +98,8 @@ $ ./autogen.sh --prefix $HOME
 
 $ ./configure --prefix $HOME
 
+$ make
+
 $ make install
 
 Build simple
@@ -101,6 +109,8 @@ $ cd $HOME/git/copperspice/samples/simple
 $ ./autogen.sh
 
 $ ./configure --prefix $HOME
+
+$ make
 
 $ make install
 
@@ -112,4 +122,10 @@ $ ./autogen.sh
 
 $ ./configure --prefix $HOME
 
+$ make
+
 $ make install
+
+The sample application executables will be located in $HOME/exe or c:\msys\home\'username'\bin.
+Note: The kitchensink executable is located in $HOME/git/copperspice/samples/kitchensink/exe or c:\msys\home\'username'\git\copperspice\samples\kitchensink\bin.
+Note: 'username' is the user you are logged into the windows operating system. i.e. wpbest is my user name in my case.
