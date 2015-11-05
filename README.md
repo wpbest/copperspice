@@ -126,7 +126,7 @@ $ make
 
 $ make install
 
-The sample application executables will be located in $HOME/exe or c:\msys\home\'username'\bin.
+The sample application executables will be located in $HOME/bin or c:\msys\home\'username'\bin.
 
 Note: The kitchensink executable is located in $HOME/git/copperspice/samples/kitchensink/exe or c:\msys\home\'username'\git\copperspice\samples\kitchensink\bin.
 
