@@ -94,7 +94,7 @@ Build settingseditor
 
 $ cd $HOME/git/copperspice/samples/settingseditor
 
-$ ./autogen.sh --prefix $HOME
+$ ./autogen.sh
 
 $ ./configure --prefix $HOME
 
