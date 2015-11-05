@@ -128,6 +128,6 @@ $ make install
 
 The sample application executables will be located in $HOME/bin or c:\msys\home\'username'\bin.
 
-Note: The kitchensink executable is located in $HOME/git/copperspice/samples/kitchensink/exe or c:\msys\home\'username'\git\copperspice\samples\kitchensink\bin.
+Note: The kitchensink executable is located in $HOME/git/copperspice/samples/kitchensink/bin or c:\msys\home\'username'\git\copperspice\samples\kitchensink\bin.
 
 Note: 'username' is the user you are logged into the windows operating system. i.e. wpbest is my user name in my case.
