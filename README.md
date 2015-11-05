@@ -131,31 +131,3 @@ The sample application executables will be located in $HOME/bin or c:\msys\home\
 Note: The kitchensink executable is located in $HOME/git/copperspice/samples/kitchensink/bin or c:\msys\home\'username'\git\copperspice\samples\kitchensink\bin.
 
 Note: 'username' is the user you are logged into the windows operating system. i.e. wpbest is my user name in my case.
-
-Build CopperSpice and Samples on Ubuntu 15.10 64-bit
-
-$ mkdir git
-
-$ cd git
-
-$ git clone https://github.com/wpbest/copperspice.git
-
-$ cd copperspice
-
-$ chmod +x autogen.sh
-
-$ ./autogen.sh
-
-$ mkdir build
-
-$ cd build
-
-$ ../configure --prefix /usr/local/copperspice
-
-$ make -j2
-
-$ sudo make install
-
-
-
-
