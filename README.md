@@ -68,10 +68,6 @@ $ cd $HOME/git/copperspice/samples/kitchensink
 
 $ ./autogen.sh
 
-$ mkdir build
-
-$ cd build
-
 $ ../configure --prefix $HOME
 
 $ make
